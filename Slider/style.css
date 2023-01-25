@@ -5,20 +5,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;   
-    background: #F2DCB3;
+    background: #04449c;
 }
 
 /* Tamanho, posição e sombra do Slider */
 .slider {
-    width: 90%;
-    height: 90%;
+    width: 80%;
+    height: 80%;
     overflow: hidden;
     position: absolute;
-    border-radius: 20px;
+    
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 10px 10px 5px 0px rgba(64,22,22, 0.75);
+    box-shadow: 10px 10px 5px 0px rgb(0, 0, 0);
 }
 
 /* Tamanho das imagens */
@@ -54,7 +54,7 @@ input {
 }
 
 .navigation-auto div {
-    border: 2px solid #fff;
+    border: 2px solid rgb(255, 255, 255);
     padding: 10px;
     border-radius: 20px;
     cursor: pointer;
@@ -110,22 +110,22 @@ input {
 
 
 #radio1:checked ~ .navigation-auto .auto-btn1 {
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
 #radio2:checked ~ .navigation-auto .auto-btn2 {
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
 #radio3:checked ~ .navigation-auto .auto-btn3 {
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
 #radio4:checked ~ .navigation-auto .auto-btn4 {
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
 #radio5:checked ~ .navigation-auto .auto-btn5 {
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
